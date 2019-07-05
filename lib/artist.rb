@@ -6,7 +6,7 @@ class Artist
 
   self.all
 
-  e d
+end
 
 
 end
