@@ -25,7 +25,7 @@ class Artist
 
   def genres
     Song.all.collect do |song|
-      song.artist = lf
+      song.genre
     end
   end
 end
