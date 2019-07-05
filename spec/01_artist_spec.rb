@@ -46,6 +46,7 @@ describe "Artist" do
   after do
     Artist.all.clear
     Genre.all.clear
+    Song.all.clear
   end
 
   describe "#genres" do
