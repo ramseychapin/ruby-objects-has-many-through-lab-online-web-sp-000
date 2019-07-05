@@ -45,8 +45,6 @@ describe "Artist" do
 
   after do
     Artist.all.clear
-    Cat.all.clear
-    Dog.all.clear
   end
 
   describe "#genres" do
