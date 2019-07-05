@@ -13,8 +13,8 @@ class Genre
   end
 
   def songs
-
-  en
+    
+  end
 
   def artists
 
