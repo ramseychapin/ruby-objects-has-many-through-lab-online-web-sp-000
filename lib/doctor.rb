@@ -20,11 +20,12 @@ class Doctor
   def appointments
     Appointments.all.select do |appts|
       appts.doctor = self
+    end
   end
 
 
   def patients
-
+    
   end
 
 end
