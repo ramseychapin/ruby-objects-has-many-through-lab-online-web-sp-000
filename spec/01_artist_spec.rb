@@ -43,6 +43,12 @@ describe "Artist" do
     end
   end
 
+  after do
+    Artist.all.clear
+    Cat.all.clear
+    Dog.all.clear
+  end
+
   describe "#genres" do
     it "has many genres, through songs" do
       jay_z = Artist.new("Jay-Z")
