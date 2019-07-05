@@ -1,6 +1,10 @@
 class Doctor
 
-  attr_accessor 
+  attr_accessor
   @@all = []
+
+  def initialize()
+
+  end
 
 end
