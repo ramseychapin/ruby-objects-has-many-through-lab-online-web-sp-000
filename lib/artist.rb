@@ -5,8 +5,8 @@ class Artist
 
 
   self.all
-
-end
+    
+  end
 
 
 end
