@@ -24,7 +24,7 @@ class Artist
   end
 
   def genres
-    Song.all.map do |song|
+    Song.all.collect do |song|
       song.artist = lf
     end
   end
