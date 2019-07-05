@@ -17,10 +17,10 @@ class Artist
   end
 
   def songs
-
+    Song.all.select 
   end
 
   def genres
-    
+
   end
 end
