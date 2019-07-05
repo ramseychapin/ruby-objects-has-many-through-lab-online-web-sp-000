@@ -54,7 +54,7 @@ describe "Artist" do
       ninety_nine_problems = jay_z.new_song("Ninety Nine Problems", rap)
       #binding.pry
       expect(jay_z.genres).to include(rap)
-      expect(jay_z.songs.firjst.genre).to eq(rap)
+      expect(jay_z.songs.first.genre).to eq(rap)
     end
   end
 
