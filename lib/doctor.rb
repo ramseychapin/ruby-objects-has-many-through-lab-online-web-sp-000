@@ -1,5 +1,5 @@
 class Doctor
 
-  
+  @@all = []
 
 end
