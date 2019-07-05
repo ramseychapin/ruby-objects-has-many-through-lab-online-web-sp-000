@@ -24,6 +24,6 @@ class Artist
   end
 
   def genres
-    
+    result = song
   end
 end
