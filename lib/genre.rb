@@ -3,8 +3,8 @@ class Genre
   @@all = []
 
   def initialize()
-
     
+  end
 
 
   def self.all
