@@ -24,6 +24,9 @@ class Artist
   end
 
   def genres
-    result = songs
+    songs.collect do |song|
+      song.genre
+    end
+
   end
 end
