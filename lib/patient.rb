@@ -8,4 +8,20 @@ class Patient
     @@all << self
   end
 
+  def new_appointment(patient, date)
+    Appointment.new(date, patient, self)
+  end
+
+
+  def appointments
+    Appointments.all.select do |appts|
+      appts.doctor = self
+    end
+  end
+
+
+  def patients
+    appointments.collect { |appointment| appointment.patient }
+  end
+
 end
