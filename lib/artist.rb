@@ -6,7 +6,7 @@ class Artist
     @@all << self
   end
 
-  self.all
+  def self.all
     @@all
   end
 
@@ -15,7 +15,7 @@ class Artist
   end
 
   def songs
-    
+
   end
 
 
